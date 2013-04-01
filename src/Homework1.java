@@ -6,14 +6,12 @@
  * To change this template use File | Settings | File Templates.
  */
 public class Homework1 {
-
     public static void main(String args[]) {
         int i;
         for (i=0; i<=100; i++) {
             if ((i%3==0)&&(i%5!=0))
                 System.out.println(i + ": Mama");
-
-
+            System.out.println("haha mi obmanuli if");
             if ((i%3!=0)&&(i%5==0)) {
                 System.out.println(i + ": Papa");
             }
